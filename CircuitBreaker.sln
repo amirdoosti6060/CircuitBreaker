@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircuitBreaker", "CircuitBreaker\CircuitBreaker.csproj", "{227A7F5D-DEC3-44C3-83D0-06699E215627}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebService", "WebService\WebService.csproj", "{1927E49D-38D7-4CFD-A575-0932A8786EE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{227A7F5D-DEC3-44C3-83D0-06699E215627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{227A7F5D-DEC3-44C3-83D0-06699E215627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{227A7F5D-DEC3-44C3-83D0-06699E215627}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{227A7F5D-DEC3-44C3-83D0-06699E215627}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1927E49D-38D7-4CFD-A575-0932A8786EE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1927E49D-38D7-4CFD-A575-0932A8786EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1927E49D-38D7-4CFD-A575-0932A8786EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1927E49D-38D7-4CFD-A575-0932A8786EE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25B27720-08E2-4B91-AF46-F9E0D5118DBB}
+	EndGlobalSection
+EndGlobal
