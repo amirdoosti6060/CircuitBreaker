@@ -3,6 +3,7 @@
 ## Introduction
 In this sample I tried to show you how to implement several Resilience Patterns like Circuit Breaker, Retry and Timeout in microservices unit C#.Net asd Polly package.
 Following article in my Linkedin describe resilience pattern and provide in-deep descriptions:  
+https://www.linkedin.com/pulse/circuit-breaker-design-pattern-amir-doosti  
 
 
 ## Structure of solution
