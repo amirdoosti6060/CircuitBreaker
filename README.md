@@ -21,7 +21,7 @@ This sample consists two projects:
 Run WebService and normally it will be available in http://localhost:5000/weatherforecast  
 But you may host application in another host and with another port and so the address will change.  
 Run Circuit breacker like this:  
-CircuitBreacker http://localhost:5000/weatherforecast circuitbreacker  
+    CircuitBreacker http://localhost:5000/weatherforecast circuitbreacker  
 You will find out that everything is ok and circuit breacker do nothing  
 Then stop WebService and re-run the CircuitBreaker or change the url to an unavailable address.  
 This time you will see after two request, CircuitBreaker mechanism activate and open the circuit.  
@@ -30,7 +30,7 @@ This time you will see after two request, CircuitBreaker mechanism activate and 
 Run WebService and normally it will be available in http://localhost:5000/weatherforecast  
 But you may host application in another host and with another port and so the address will change.  
 Run Circuit breacker like this:  
-CircuitBreacker http://localhost:5000/weatherforecast retry  
+    CircuitBreacker http://localhost:5000/weatherforecast retry  
 While WebService is running, nothing happen.  
 But as soon as it is stopped, after 4 attempt, it break each request.  
 
@@ -38,7 +38,7 @@ But as soon as it is stopped, after 4 attempt, it break each request.
 Run WebService and normally it will be available in http://localhost:5000/weatherforecast  
 But you may host application in another host and with another port and so the address will change.  
 Run Circuit breacker like this:  
-CircuitBreacker http://localhost:5000/weatherforecast timeout  
+    CircuitBreacker http://localhost:5000/weatherforecast timeout  
 While WebService is running, nothing happen.  
 But as soon as it is stopped, after 1 second, it break each request and a timeout happens.  
 
